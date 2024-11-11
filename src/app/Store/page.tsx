@@ -70,7 +70,7 @@ const ProductGrid = () => {
                 <h3 className="text-xl font-semibold text-gray-800">{product.name}</h3>
                 <p className="text-gray-500 text-sm">{product.category}</p>
                 <p className="mt-2 text-lg font-bold text-gray-800">{product.price}</p>
-                <button className="mt-2 py-2 px-4 bg-orange-600 text-white rounded-lg hover:bg-orange-500 transition-all duration-300">
+                <button className="mt-2 py-2 px-4 bg-lime-600 text-white rounded-lg hover:bg-lime-500 transition-all duration-300">
                   View Details
                 </button>
               </div>

@@ -89,7 +89,7 @@ const ProductGrid = () => {
                 <div className="flex items-center mt-2">
                   {renderRating(product.rating)}
                 </div>
-                <button className="mt-4 py-2 px-4 bg-orange-600 text-white rounded-lg hover:bg-orange-500 transition-all duration-300">
+                <button className="mt-4 py-2 px-4 bg-lime-600 text-white rounded-lg hover:bg-lime-500 transition-all duration-300">
                   View Details
                 </button>
               </div>

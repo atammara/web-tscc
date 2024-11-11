@@ -72,9 +72,9 @@ const ProductPage = () => {
             $50.00 <span className="line-through text-gray-500">$200.00</span>
           </p>
           <p className="mt-4 text-gray-600">
-          Experience the perfect blend of comfort and elegance with our premium bedsheet sets, crafted to transform your bedroom into a serene sanctuary.
+          Experience the perfect blend of comfort and elegance with our premium bedsheet sets,<br /> crafted to transform your bedroom into a serene sanctuary.
           </p>
-          <button className="mt-6 py-2 px-6 bg-orange-600 text-white rounded-lg hover:bg-orange-500 transition-all duration-300">
+          <button className="mt-6 py-2 px-6 bg-lime-600 text-white rounded-lg hover:bg-lime-500 transition-all duration-300">
             VIEW DETAILS
           </button>
         </div>
@@ -110,7 +110,7 @@ const ProductPage = () => {
                 <div className="flex items-center mt-2">
                   {renderRating(4)} {/* Example: 4-star rating */}
                 </div>
-                <button className="mt-4 py-2 px-4 bg-orange-600 text-white rounded-lg hover:bg-orange-500 transition-all duration-300">
+                <button className="mt-4 py-2 px-4 bg-lime-600 text-white rounded-lg hover:bg-lime-500 transition-all duration-300">
                   View Details
                 </button>
               </div>
