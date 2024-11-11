@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { FaShippingFast, FaMoneyBillAlt, FaHeadset, FaEnvelope } from 'react-icons/fa';
 
-const Hero = () => {
+const HeroSec = () => {
   return (
     <div className='h-72'>
       <div className="bg-white flex justify-between ml-32 sm:justify-center sm:gap-2 mr-32 mt-1 w-auto p-2 text-sm text-gray-600">
@@ -59,4 +59,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSec;
