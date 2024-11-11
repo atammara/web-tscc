@@ -4,22 +4,7 @@ import { FaShippingFast, FaMoneyBillAlt, FaHeadset, FaEnvelope } from 'react-ico
 
 const HeroSec = () => {
   return (
-    <div className='h-72'>
-      <div className="bg-white sm:justify-center  flex justify-between px-40 items-center sm:gap-2 mt-1 w-full p-2 text-sm text-gray-600">
-        <div className="flex gap-2 hover:text-lime-600 items-center">
-          <FaShippingFast size={22} />
-          <span className='font-semibold'>Free Shipping</span>
-        </div>
-        <div className="flex gap-2 hover:text-lime-600 items-center">
-          <FaMoneyBillAlt size={22} />
-          <span className='font-semibold'>100% Money Back</span>
-        </div>
-        <div className="flex gap-2 hover:text-lime-600 items-center">
-          <FaHeadset size={22} />
-          <span className='font-semibold'>Support 24/7</span>
-        </div>
-      </div>
-
+    <div className='h-72 mt-1'>
       <section className="relative bg-gray-100 p-6 md:flex md:items-center md:justify-between">
         <div className="md:w-1/2 mt-6 md:mt-0">
           <Image

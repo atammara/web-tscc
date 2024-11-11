@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-slate-50">
-      <header className="p-2 shadow-sm shadow-black">
+      <header className="p-1 shadow-sm shadow-black">
         <div className="max-w-7xl py-1 mx-auto flex items-center justify-between">
           <div className="text-3xl ml-8 font-bold text-lime-600">MOODY STUDIO</div>
           <nav className="hidden md:flex gap-12 justify-center font-semibold text-lg text-gray-600">
